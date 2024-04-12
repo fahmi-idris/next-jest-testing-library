@@ -7,6 +7,10 @@ export function sum(a: number, b: number): number {
 	return a + b;
 }
 
+export function divided(a: number, b: number): number {
+	return a / b;
+}
+
 export class Logger {
 	log(message: string): void {
 			console.log(`[Log]: ${message}`);
