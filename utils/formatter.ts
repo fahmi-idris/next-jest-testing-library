@@ -11,8 +11,12 @@ export function divided(a: number, b: number): number {
 	return a / b;
 }
 
+export function multiplication(a: number, b: number): number {
+	return a * b;
+}
+
 export class Logger {
 	log(message: string): void {
-			console.log(`[Log]: ${message}`);
+		console.log(`[Log]: ${message}`);
 	}
 }
